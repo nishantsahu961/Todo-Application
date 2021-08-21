@@ -83,7 +83,7 @@ class TaskActivity : AppCompatActivity(), View.OnClickListener {
                 category,
                 finalDate,
                 finalTime,
-                0
+                -1
         )
 
         GlobalScope.launch(Dispatchers.IO) {
